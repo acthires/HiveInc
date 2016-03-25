@@ -35,7 +35,7 @@ Requirements
 
 Implement Method
 ====================
-	1. Add rules to ParseDriver's  input *.g files for "Incremental Mark" Parse; 
+	1. Add rules to ParseDriver's input *.g files for "Incremental Mark" Parse; 
 	2. IncDriver: run HiveQL periodically
 	3. ExtractTmpSemanticAnaylyzer: 1)Identify incremental path identify; 2)Extract non-incremental subAST.
 	4. IncSplitSemanticAnalyzer: identify the split/merge position in incremental AST
