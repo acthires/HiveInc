@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<configuration>
+
+<!-- WARNING!!! This file is provided for documentation purposes ONLY!     -->
+<!-- WARNING!!! Any changes you make to this file will be ignored by Hive. -->
+<!-- WARNING!!! You must make your changes in hive-site.xml instead.       -->
+
+
+<!-- Hive Execution Parameters -->
+<property>
+  <name>mapred.reduce.tasks</name>
+  <value>32</value>
+    <description>The default number of reduce tasks per job.  Typically set
+  to a prime close to the number of available hosts.  Ignored when
+  mapred.job.tracker is "local". Hadoop set this to 1 by default, whereas hive uses -1 as its default value.
+  By setting this property to -1, Hive will automatically figure out what should be the number of reducers.
+  </description>
+</property>
+
+<property>
+  <name>mapred.max.split.size</name>
+  <value>134217728</value>
+</property>
+
+<property>
+  <name>mapred.min.split.size</name>
+  <value>67108864</value>
+</property>
+
+<property>
+  <name>hive.exec.compress.output</name>
+  <value>false</value>
+</property>
+
+<property>
+  <name>hive.merge.mapredfiles</name>
+  <value>false</value>
+</property>
+
+<property>
+  <name>hive.merge.smallfiles.avgsize</name>
+  <value>16000000</value>
+</property>
+
+</configuration>

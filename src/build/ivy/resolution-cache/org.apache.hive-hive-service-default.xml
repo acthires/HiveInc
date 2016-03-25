@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.hive"
+		module="hive-service"
+		revision="0.12.0"
+		conf="default"
+		confs="default"
+		date="20151226225926"/>
+	<dependencies>
+		<module organisation="org.apache.hive" name="hive-exec">
+			<revision name="0.12.0" status="integration" pubdate="20151218162510" resolver="local" artresolver="default" homepage="http://hive.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, hadoop20S.compile, master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5159" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-exec/ivy-0.12.0.xml" searched="false" origin-is-local="true" origin-location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-exec/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="org.apache.hive" name="hive-service" conf="default, compile, hadoop20S.compile, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="hive-exec" type="jar" ext="jar" status="no" details="" size="9360893" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-exec/jars/hive-exec-0.12.0.jar">
+						<origin-location is-local="true" location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-exec/0.12.0/jars/hive-exec.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="0.9.94" status="release" pubdate="20080223035343" resolver="maven2" artresolver="default" homepage="http://jline.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="34">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2925" time="0" location="/home/kangyanli/.ivy2/cache/jline/jline/ivy-0.9.94.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="0.9.94" rev-constraint-default="0.9.94" rev-constraint-dynamic="0.9.94" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="87325" time="0" location="/home/kangyanli/.ivy2/cache/jline/jline/jars/jline-0.9.94.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javolution" name="javolution">
+			<revision name="5.5.1" status="release" pubdate="20100520165509" resolver="maven2" artresolver="default" homepage="http://javolution.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="33">
+				<license name="BSD License" url="http://javolution.org/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3414" time="0" location="/home/kangyanli/.ivy2/cache/javolution/javolution/ivy-5.5.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javolution/javolution/5.5.1/javolution-5.5.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="5.5.1" rev-constraint-default="5.5.1" rev-constraint-dynamic="5.5.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="javolution" type="bundle" ext="jar" status="no" details="" size="395195" time="0" location="/home/kangyanli/.ivy2/cache/javolution/javolution/bundles/javolution-5.5.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javolution/javolution/5.5.1/javolution-5.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
+			<revision name="0.3.2" status="release" pubdate="20120116225713" resolver="maven2" artresolver="default" homepage="http://code.google.com/p/javaewah/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="32">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4106" time="0" location="/home/kangyanli/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-0.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="JavaEWAH" type="jar" ext="jar" status="no" details="" size="16993" time="0" location="/home/kangyanli/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/jars/JavaEWAH-0.3.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20090205034444" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5651" time="0" location="/home/kangyanli/.ivy2/cache/commons-configuration/commons-configuration/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="/home/kangyanli/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json" name="json">
+			<revision name="20090211" status="release" pubdate="20090227023142" resolver="maven2" artresolver="default" homepage="http://www.json.org/java/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="29">
+				<license name="provided without support or warranty" url="http://www.json.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2908" time="0" location="/home/kangyanli/.ivy2/cache/org.json/json/ivy-20090211.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/json/json/20090211/json-20090211.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="20090211" rev-constraint-default="20090211" rev-constraint-dynamic="20090211" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="json" type="jar" ext="jar" status="no" details="" size="45944" time="0" location="/home/kangyanli/.ivy2/cache/org.json/json/jars/json-20090211.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/json/json/20090211/json-20090211.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.iq80.snappy" name="snappy">
+			<revision name="0.2" status="release" pubdate="20111224022312" resolver="maven2" artresolver="default" homepage="http://github.com/dain/snappy" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="28">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3390" time="0" location="/home/kangyanli/.ivy2/cache/org.iq80.snappy/snappy/ivy-0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.2/snappy-0.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="snappy" type="jar" ext="jar" status="no" details="" size="48720" time="0" location="/home/kangyanli/.ivy2/cache/org.iq80.snappy/snappy/jars/snappy-0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/iq80/snappy/snappy/0.2/snappy-0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.4.1" status="release" pubdate="20110707033342" resolver="maven2" artresolver="default" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="27">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3143" time="0" location="/home/kangyanli/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="450279" time="0" location="/home/kangyanli/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hive" name="hive-metastore">
+			<revision name="0.12.0" status="integration" pubdate="20151218162227" resolver="local" artresolver="default" homepage="http://hive.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, hadoop20S.compile, master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3567" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-metastore/ivy-0.12.0.xml" searched="false" origin-is-local="true" origin-location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-metastore/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="hive-metastore" type="jar" ext="jar" status="no" details="" size="3343481" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-metastore/jars/hive-metastore-0.12.0.jar">
+						<origin-location is-local="true" location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-metastore/0.12.0/jars/hive-metastore.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.derby" name="derby">
+			<revision name="10.4.2.0" status="release" pubdate="20080909040155" resolver="maven2" artresolver="default" homepage="http://db.apache.org/derby/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="26">
+				<metadata-artifact status="no" details="" size="2217" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.derby/derby/ivy-10.4.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="10.4.2.0" rev-constraint-default="10.4.2.0" rev-constraint-dynamic="10.4.2.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="derby" type="jar" ext="jar" status="no" details="" size="2446767" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.derby/derby/jars/derby-10.4.2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/derby/derby/10.4.2.0/derby-10.4.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datanucleus" name="datanucleus-rdbms">
+			<revision name="3.2.1" status="release" pubdate="20130405155640" resolver="maven2" artresolver="default" homepage="http://www.datanucleus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5036" time="0" location="/home/kangyanli/.ivy2/cache/org.datanucleus/datanucleus-rdbms/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.1/datanucleus-rdbms-3.2.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="datanucleus-rdbms" type="jar" ext="jar" status="no" details="" size="1769726" time="0" location="/home/kangyanli/.ivy2/cache/org.datanucleus/datanucleus-rdbms/jars/datanucleus-rdbms-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/datanucleus/datanucleus-rdbms/3.2.1/datanucleus-rdbms-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="30">
+				<metadata-artifact status="no" details="" size="4791" time="0" location="/home/kangyanli/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/home/kangyanli/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datanucleus" name="datanucleus-api-jdo">
+			<revision name="3.2.1" status="release" pubdate="20130405154943" resolver="maven2" artresolver="default" homepage="http://www.datanucleus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3608" time="0" location="/home/kangyanli/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.1/datanucleus-api-jdo-3.2.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="datanucleus-api-jdo" type="jar" ext="jar" status="no" details="" size="337012" time="0" location="/home/kangyanli/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/jars/datanucleus-api-jdo-3.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/datanucleus/datanucleus-api-jdo/3.2.1/datanucleus-api-jdo-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datanucleus" name="datanucleus-core">
+			<revision name="3.2.2" status="release" pubdate="20130405154745" resolver="maven2" artresolver="default" homepage="http://www.datanucleus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5754" time="0" location="/home/kangyanli/.ivy2/cache/org.datanucleus/datanucleus-core/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/datanucleus/datanucleus-core/3.2.2/datanucleus-core-3.2.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="datanucleus-core" type="jar" ext="jar" status="no" details="" size="1801810" time="0" location="/home/kangyanli/.ivy2/cache/org.datanucleus/datanucleus-core/jars/datanucleus-core-3.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/datanucleus/datanucleus-core/3.2.2/datanucleus-core-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.jdo" name="jdo-api">
+			<revision name="3.0.1" status="release" pubdate="20120209220107" resolver="maven2" artresolver="default" homepage="http://db.apache.org/jdo" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3411" time="0" location="/home/kangyanli/.ivy2/cache/javax.jdo/jdo-api/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="jdo-api" type="jar" ext="jar" status="no" details="" size="201124" time="0" location="/home/kangyanli/.ivy2/cache/javax.jdo/jdo-api/jars/jdo-api-3.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.5.4" status="release" pubdate="20091113094653" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/pool/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="21">
+				<metadata-artifact status="no" details="" size="5001" time="0" location="/home/kangyanli/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="96221" time="0" location="/home/kangyanli/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jolbox" name="bonecp">
+			<revision name="0.7.1.RELEASE" status="release" pubdate="20110405200240" resolver="maven2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="20">
+				<metadata-artifact status="no" details="" size="8922" time="0" location="/home/kangyanli/.ivy2/cache/com.jolbox/bonecp/ivy-0.7.1.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/jolbox/bonecp/0.7.1.RELEASE/bonecp-0.7.1.RELEASE.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="0.7.1.RELEASE" rev-constraint-default="0.7.1.RELEASE" rev-constraint-dynamic="0.7.1.RELEASE" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="bonecp" type="bundle" ext="jar" status="no" details="" size="115709" time="0" location="/home/kangyanli/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.7.1.RELEASE.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/jolbox/bonecp/0.7.1.RELEASE/bonecp-0.7.1.RELEASE.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hive" name="hive-serde">
+			<revision name="0.12.0" status="integration" pubdate="20151218161649" resolver="local" artresolver="default" homepage="http://hive.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, hadoop20S.compile, master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3204" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-serde/ivy-0.12.0.xml" searched="false" origin-is-local="true" origin-location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-serde/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="hive-serde" type="jar" ext="jar" status="no" details="" size="709069" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-serde/jars/hive-serde-0.12.0.jar">
+						<origin-location is-local="true" location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-serde/0.12.0/jars/hive-serde.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-mapred">
+			<revision name="1.7.1" status="release" pubdate="20120713033123" resolver="maven2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="10031" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.avro/avro-mapred/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="avro-mapred" type="jar" ext="jar" status="no" details="" size="168868" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.1/avro-mapred-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.4" status="release" pubdate="20090810052217" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="14">
+				<metadata-artifact status="no" details="" size="5179" time="0" location="/home/kangyanli/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="58160" time="0" location="/home/kangyanli/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.4/commons-codec-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.thrift" name="libfb303">
+			<revision name="0.9.0" status="release" pubdate="20121016104729" resolver="maven2" artresolver="default" homepage="http://thrift.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2603" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.thrift/libfb303/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/thrift/libfb303/0.9.0/libfb303-0.9.0.pom"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="libfb303" type="jar" ext="jar" status="no" details="" size="275186" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.thrift/libfb303/jars/libfb303-0.9.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/thrift/libfb303/0.9.0/libfb303-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-all">
+			<revision name="1.8.2" status="release" pubdate="20091213003732" resolver="maven2" artresolver="default" homepage="http://www.mockito.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="12">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="no" details="" size="2447" time="0" location="/home/kangyanli/.ivy2/cache/org.mockito/mockito-all/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="no" details="" size="1347380" time="0" location="/home/kangyanli/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.8.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.6.1" status="release" pubdate="20100706043004" resolver="maven2" artresolver="default" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="4498" time="0" location="/home/kangyanli/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="9753" time="0" location="/home/kangyanli/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.1" status="release" pubdate="20100706042924" resolver="maven2" artresolver="default" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master, master(*), compile(*), runtime(*)" position="10">
+				<metadata-artifact status="no" details="" size="4320" time="0" location="/home/kangyanli/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.pom"/>
+				<caller organisation="com.jolbox" name="bonecp" conf="default, compile, runtime, master" rev="1.5.10" rev-constraint-default="1.5.10" rev-constraint-dynamic="1.5.10" callerrev="0.7.1.RELEASE"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25496" time="0" location="/home/kangyanli/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.5.10" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, master(*), runtime, compile(*), runtime(*), master, default" position="-1">
+				<evicted-by rev="1.6.1"/>
+				<caller organisation="com.jolbox" name="bonecp" conf="default, compile, runtime, master" rev="1.5.10" rev-constraint-default="1.5.10" rev-constraint-dynamic="1.5.10" callerrev="0.7.1.RELEASE"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.12.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hive" name="hive-common">
+			<revision name="0.12.0" status="integration" pubdate="20151218142505" resolver="local" artresolver="default" homepage="http://hive.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, hadoop20S.compile, master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3243" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-common/ivy-0.12.0.xml" searched="false" origin-is-local="true" origin-location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-common/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="hive-common" type="jar" ext="jar" status="no" details="" size="101860" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-common/jars/hive-common-0.12.0.jar">
+						<origin-location is-local="true" location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-common/0.12.0/jars/hive-common.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.4" status="release" pubdate="20080319134228" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="8">
+				<metadata-artifact status="no" details="" size="4831" time="0" location="/home/kangyanli/.ivy2/cache/commons-lang/commons-lang/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="261809" time="0" location="/home/kangyanli/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522125732" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="8089" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="241367" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022174446" resolver="maven2" artresolver="default" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2450" time="0" location="/home/kangyanli/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94672" time="0" location="/home/kangyanli/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320040832" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="4641" time="0" location="/home/kangyanli/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/home/kangyanli/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hive" name="hive-shims">
+			<revision name="0.12.0" status="integration" pubdate="20151218142241" resolver="local" artresolver="default" homepage="http://hive.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, hadoop20S.compile, master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9572" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-shims/ivy-0.12.0.xml" searched="false" origin-is-local="true" origin-location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-shims/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="hive-shims" type="jar" ext="jar" status="no" details="" size="143677" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-shims/jars/hive-shims-0.12.0.jar">
+						<origin-location is-local="true" location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-shims/0.12.0/jars/hive-shims.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="11.0.2" status="release" pubdate="20120222220217" resolver="maven2" artresolver="default" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="35">
+				<metadata-artifact status="no" details="" size="4014" time="0" location="/home/kangyanli/.ivy2/cache/com.google.guava/guava/ivy-11.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-exec" conf="default, compile, hadoop20S.compile, master" rev="11.0.2" rev-constraint-default="11.0.2" rev-constraint-dynamic="11.0.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="1648200" time="0" location="/home/kangyanli/.ivy2/cache/com.google.guava/guava/jars/guava-11.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/guava/guava/11.0.2/guava-11.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.16" status="release" pubdate="20100331122544" resolver="maven2" artresolver="default" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3521" time="0" location="/home/kangyanli/.ivy2/cache/log4j/log4j/ivy-1.2.16.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="481535" time="0" location="/home/kangyanli/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.16.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.7.1" status="release" pubdate="20120713033044" resolver="maven2" artresolver="default" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="15">
+				<metadata-artifact status="no" details="" size="9585" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.avro/avro/ivy-1.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/avro/avro/1.7.1/avro-1.7.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-serde" conf="default, compile, hadoop20S.compile, master" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="avro" type="jar" ext="jar" status="no" details="" size="297845" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/avro/avro/1.7.1/avro-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr">
+			<revision name="3.4" status="release" pubdate="20110720003638" resolver="maven2" artresolver="default" homepage="http://antlr.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="17">
+				<metadata-artifact status="no" details="" size="4233" time="0" location="/home/kangyanli/.ivy2/cache/org.antlr/antlr/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr/3.4/antlr-3.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="antlr" type="jar" ext="jar" status="no" details="" size="1112191" time="0" location="/home/kangyanli/.ivy2/cache/org.antlr/antlr/jars/antlr-3.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr/3.4/antlr-3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="ST4">
+			<revision name="4.0.4" status="release" pubdate="20110719080628" resolver="maven2" artresolver="default" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="19">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4168" time="0" location="/home/kangyanli/.ivy2/cache/org.antlr/ST4/ivy-4.0.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="4.0.4" rev-constraint-default="4.0.4" rev-constraint-dynamic="4.0.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="ST4" type="jar" ext="jar" status="no" details="" size="236660" time="0" location="/home/kangyanli/.ivy2/cache/org.antlr/ST4/jars/ST4-4.0.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/ST4/4.0.4/ST4-4.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.4" status="release" pubdate="20110720003615" resolver="maven2" artresolver="default" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="4343" time="0" location="/home/kangyanli/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-metastore" conf="default, compile, hadoop20S.compile, master" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="164368" time="0" location="/home/kangyanli/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,89 @@
+10
+
+dir
+116
+svn://10.3.0.220/hive/branches/kangyanli/hive-0.12.0/src/hcatalog/src/test/e2e/hcatalog
+svn://10.3.0.220/hive
+
+
+
+2013-12-05T05:33:46.847844Z
+7
+wanglei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+60bc2350-b3ec-0410-b16a-d44fc3191f44
+
+tools
+dir
+
+udfs
+dir
+
+tests
+dir
+
+paramfiles
+dir
+
+conf
+dir
+
+deployers
+dir
+
+resource
+dir
+
+data
+dir
+
+drivers
+dir
+
+build.xml
+file
+
+
+
+
+2015-12-17T06:45:34.863745Z
+882d3392fd04865da651033d18e756b2
+2013-12-05T05:33:46.847844Z
+7
+wanglei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13628
+

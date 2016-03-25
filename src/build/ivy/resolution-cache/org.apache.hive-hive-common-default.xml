@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.hive"
+		module="hive-common"
+		revision="0.12.0"
+		conf="default"
+		confs="default"
+		date="20160318215231"/>
+	<dependencies>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.4" status="release" pubdate="20080319134228" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="4831" time="0" location="/home/kangyanli/.ivy2/cache/commons-lang/commons-lang/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="261809" time="0" location="/home/kangyanli/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522125732" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="2">
+				<metadata-artifact status="no" details="" size="8089" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="241367" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022174446" resolver="maven2" artresolver="default" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2450" time="0" location="/home/kangyanli/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94672" time="0" location="/home/kangyanli/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320040832" resolver="maven2" artresolver="default" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="4641" time="0" location="/home/kangyanli/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/home/kangyanli/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hive" name="hive-shims">
+			<revision name="0.12.0" status="integration" pubdate="20151218142241" resolver="local" artresolver="default" homepage="http://hive.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, hadoop20S.compile, master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9572" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-shims/ivy-0.12.0.xml" searched="false" origin-is-local="true" origin-location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-shims/0.12.0/ivys/ivy.xml"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="0.12.0" rev-constraint-default="0.12.0" rev-constraint-dynamic="0.12.0" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="hive-shims" type="jar" ext="jar" status="no" details="" size="143677" time="0" location="/home/kangyanli/.ivy2/cache/org.apache.hive/hive-shims/jars/hive-shims-0.12.0.jar">
+						<origin-location is-local="true" location="/home/kangyanli/.ivy2/local/org.apache.hive/hive-shims/0.12.0/jars/hive-shims.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.16" status="release" pubdate="20100331122544" resolver="maven2" artresolver="default" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3521" time="0" location="/home/kangyanli/.ivy2/cache/log4j/log4j/ivy-1.2.16.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom"/>
+				<caller organisation="org.apache.hive" name="hive-common" conf="default, compile, hadoop20S.compile, master" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="0.12.0"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="481535" time="0" location="/home/kangyanli/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.16.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
